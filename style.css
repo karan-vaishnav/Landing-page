@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    
+    background: #63B0A1;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.social {
+    margin: 0em;
+    padding: 1em;
+    display: flex;
+}
+
+.social p{
+    margin: 0.2em;
+    padding: 0.3em;
+}
+
+.fb{
+    padding: 0.6em;
+}
+
+.tw{
+    padding: 0.6em;
+}
+
+.gp{
+    padding: 0.6em;
+}
+
+.cl{
+    padding: 0.6em;
+}
+
+.wifi{
+    padding: 0.6em;
+}
+
+.ln{
+    padding: 0.6em;
+}
+
+.container{
+    display: flex;
+    padding-left: 68em;
+}
+
+#mail{
+    display: flex;
+}
+
+#mail p{
+    color: #fff;
+    padding-top: 1.5em;
+}
+
+.mail{
+    height: 1.5em;
+    width: 1.5em;
+    margin: 1em;
+    padding-top: 0.4em;
+}
+
+#ph{
+    display: flex;
+}
+
+.ph{
+    height: 1.5em;
+    width: 1.5em;
+    margin: 1em;
+    padding-top: 0.4em;
+}
+
+#ph p{
+    color: #fff;
+    padding-top: 1.5em;
+}
+
+#en{
+    display: flex;
+}
+
+#en p{
+    color: #fff;
+    padding-top: 1.5em;
+    margin-left: 1em;
+}
+
+.en{
+    height: 0.5em;
+    width: 0.5em;
+    margin: 1em;
+    margin-left: 0.3em;
+    padding-top: 0.8em;
+}
+
+
+#sec1{
+    display: flex;
+    margin: 0.1em;
+    padding: 0.1em;
+    background-color: #fff;
+}
+
+#logo{
+    display: flex;
+    height: 2.3em;
+    padding-left: 5em;
+    margin: 1em;
+}
+
+.logo{
+    height: 4em;
+    width: 12em;
+}
+
+#nav ul{
+    display: flex;
+    list-style: none;
+    padding-left: 12em;
+}
+
+#nav li{
+    padding: 1.5em;
+    padding-right: 4em;
+    margin: 0.1em;
+    font-size: 1.1em;
+    list-style: none;   
+}
+
+#nav a {
+    text-decoration: none;
+    color: grey;
+}
+
+.btn{
+    padding-left: 12%;
+    padding-top: 12em;
+    font-size: 10%;   
+}
+
+.btnc{
+    padding: 0.5em;
+    color: #fff;
+    background-color: #63b0a1;
+    border: none;
+    height: 3em;
+    width: 8em;
+}
+
+.sec4{
+    background-image: url(./images/slide-one.jpg);
+    height: 22em;
+    width: 100%;
+    position: relative;
+}
+
+.sec4 h1{
+    color: #fff;
+    font-weight: 10em;
+    text-align: left;
+    padding-left: 8em;
+    padding-top: 3em;
+}
+
+.sec4 p{
+    color: #fff;
+    text-align: left;
+    padding-left: 12em;
+    padding-top: 2em;
+}
+
+.btns3 button{
+    border: solid #fff;
+    color: #fff;
+    background-color: rgb(32, 30, 30);
+    padding: 0.4em;
+    margin: 1em;
+    margin-top: 4em;
+}
+
+.btns3{
+    margin-left: 11em;
+}
+
+#sec2{
+    text-align: center;
+    padding-bottom: 6em;
+}
+
+.ourGallery{
+    text-align: center;
+    margin-top: 4em;
+}
+
+.our{
+    padding-right: 0.25em;
+}
+
+.gallery{
+    color: #63B0A1;
+}
+
+.head{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.main{
+    display: grid;
+}
+
+.main img{
+    padding-left: 53em;
+}
+
+.manu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.manu li{
+    padding: 0.6em;
+    padding-top: 2em;
+    margin: 0.1em;
+    font-size: 1.1em;
+    list-style: none;  
+}
+
+.manu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.manu a:hover{
+    color: #63B0A1;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.card{
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+.card img{
+    width: 19em;
+    height: 19em;
+}
+
+#sec3{
+    color: #fff;
+    background-image: url(./images/up.jpg);
+    height: 10em;
+    text-align: left;
+}
+
+.up{
+    display: flex;
+    padding-top: 2.6em;
+    padding-left: 10.7em;
+}
+
+.up img{
+    height: 1.5em;
+    width: 1.5em;
+    padding-top: 1.6em;
+    padding-right: 1em;
+}
+
+.eve{
+    padding-top: 0.3em;
+}
+
+.eve h1{
+    padding-bottom: 0.7em;
+}
+
+footer{
+    background-color: rgb(38, 35, 35);
+    color: white;
+    text-align: center;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    grid-gap: 10em;
+    padding-bottom: 2em;
+}
+
+footer h2{
+    font-weight: bold;
+    padding: 0.3em;
+    padding-left: 0em;
+}
+
+footer p{
+    padding: 0.6em;
+    padding-left: 0em;
+}
+
+.wp{
+    text-align: left;
+    padding-top: 2em;
+}
+
+.bottom{
+    background-color: black;
+    display: flex;
+}
+
+.wp input{
+    
+    margin-top: 2em;
+    height: 1em;
+    width: 18em;
+    font-size: 01em;
+    padding: 0.4em;
+
+}
+
+.inp{
+    display: flex;
+}
+
+.bx{
+    background-color: #63B0A1;
+    margin-top: 2em;
+    width: 2.5em;
+}
+
+.bx img{
+    padding-top: 0.5em;
+    padding-left: 0.6em;
+}
+
+.bottom p{
+    padding-top: 0.7em;
+    padding-left: 11em;
+}
+
+.media{
+    padding-left: 74em;
+    padding-top: 0.7em;
+}
+
+.media img{
+    padding: 0.5em;
+}
